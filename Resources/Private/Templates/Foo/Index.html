@@ -1,0 +1,15 @@
+<f:layout name="default" />
+
+<f:section name="main">
+	<h2>{f:translate(key:'tx_{{EXTENSIONKEY}}_domain_model_foo.fooHeader')}</h2>
+	<f:if condition="{foos}">
+		<f:then>
+			<f:for each="{foos}" as="foo">
+				<f:render partial="Foo/Properties" arguments="{foo: foo}" />
+			</f:for>
+		</f:then>
+		<f:else>
+			<p>{f:translate(key:'tx_{{EXTENSIONKEY}}_domain_model_foo.noFoosFound')}</p>
+		</f:else>
+	</f:if>
+</f:section>

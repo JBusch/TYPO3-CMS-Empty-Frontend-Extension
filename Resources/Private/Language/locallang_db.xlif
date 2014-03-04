@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-03-04T17:46:15Z" product-name="{{EXTENSIONKEY}}">
+		<header/>
+		<body>
+			<trans-unit id="tx_{{EXTENSIONKEY}}_domain_model_foo" xml:space="preserve">
+				<source>Foo</source>
+			</trans-unit>
+			<trans-unit id="tx_{{EXTENSIONKEY}}_domain_model_foo.title" xml:space="preserve">
+				<source>Title</source>
+			</trans-unit>
+			<trans-unit id="tx_{{EXTENSIONKEY}}_domain_model_foo.description" xml:space="preserve">
+				<source>Description</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

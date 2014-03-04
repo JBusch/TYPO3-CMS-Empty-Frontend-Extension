@@ -1,0 +1,5 @@
+# cat=basic/enable/10; type=int+; label=Some Integer Value
+   fooInt = 0
+
+# cat=basic/enable/20; type=string; label=Some String Value
+   fooString = Hello World

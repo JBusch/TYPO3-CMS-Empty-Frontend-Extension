@@ -1,0 +1,4 @@
+# Plugin Settings
+plugin.tx_{{EXTENSIONKEY}} {
+
+}
